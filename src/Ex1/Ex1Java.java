@@ -14,6 +14,6 @@ public class Ex1Java {
 		System.out.println("Ano em que você nasceu? ");
 		ano = ler.nextInt();
 		anof = dia + mes*30 + ano*365;
-		System.out.println(anof);
+		System.out.println("Você viveu: "+anof+" Dias");
 	}
 }
